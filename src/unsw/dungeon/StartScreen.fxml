@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="startPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="levelsBtn" accessibleRoleDescription="n n " layoutX="183.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleLevelsBtn" prefHeight="26.0" prefWidth="187.0" text="Levels" />
+      <Label fx:id="titleLbl" layoutX="120.0" layoutY="70.0" text="F13B-________ 's Dungeon Mazes" textFill="#ff0606">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitBtn" layoutX="183.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleExitsBtn" prefHeight="26.0" prefWidth="187.0" text="Exit" />
+      <Button fx:id="mapBtn" layoutX="183.0" layoutY="242.0" mnemonicParsing="false" onAction="#handleMapBtn" text="Custom dungeon creation" />
+   </children>
+</Pane>

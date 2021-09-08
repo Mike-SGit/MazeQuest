@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "cwd": "${workspaceRoot}",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - wtftest",
+            "request": "launch",
+            "mainClass": "unsw.dungeon.wtftest",
+            "projectName": "F13B-_________d1e51b5b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DungeonMakerApplication",
+            "request": "launch",
+            "mainClass": "unsw.dungeon.DungeonMaker.DungeonMakerApplication",
+            "vmArgs": "--module-path ./lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "F13B-_________cd945713"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DungeonMakerApplication",
+            "request": "launch",
+            "mainClass": "unsw.dungeon.DungeonMaker.DungeonMakerApplication",
+            "vmArgs": "--module-path ./lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "F13B-_________cd945713"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DungeonApplication",
+            "request": "launch",
+            "vmArgs": "--module-path ./lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "unsw.dungeon.DungeonApplication"
+        }
+    ]
+}
