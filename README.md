@@ -12,7 +12,7 @@
 
 ## Overview
 
-Follow an agile development process to design and implement a desktop dungeon like maze game. The final should be of professional quality, user-friendly, and demonstrate the knowledge and skills in OOP, Java and JavaFX
+Follow an agile development process to design and implement a desktop dungeon like maze game. The final product should be of professional quality, user-friendly, and demonstrate the knowledge and skills in OOP, Java and JavaFX
 
 
 ## Project setup
@@ -80,105 +80,4 @@ If getting to an exit is one of a conjunction of conditions, it must be done las
 ### User interface
 
 The UI component of this project is implemented in JavaFX. 
-
-## Requirement analysis (Milestone 1)
-
-You are expected to produce:
-
-1. High-level epic stories from the problem statement. Each epic should have its own card/issue and a corresponding tag used to mark user stories that fall under it.
-2. User stories, each containing:
-   * a short description of the feature based on the Role-Goal-Benefit (or Role-Feature-Reason) template (Refer to the RGB model from COMP1531 if unsure)
-   * an estimate for the implementation of the user story in user story points (e.g. 4 points).
-   * a tag indicating the priority
-   * acceptance criteria for each user story as a checklist in the issue (Refer to material from COMP1531 if unsure)
-
-
-
-## Domain modelling and backend implementation (Milestone 2)
-
-Based on your requirements analysis, we've produced a domain model for the backend component of the project in the form of a conceptual UML class diagram.
-
-
-
-
-### Milestone 1
-
-| Criteria | Mark  |                                                                                                  |
-|:-------- |:----- |:------------------------------------------------------------------------------------------------ |
-| Stories  | 0     | No user stories                                                                                  |
-|          | 1     | User and epic stories not in a valid format and/or vague or ambiguous                            |
-|          | 2     | Some user or epic stories not in a valid format and/or vague or ambiguous                        |
-|          | 3     | User and epic stories in a valid format, but with unclear benefits, goals or acceptance criteria |
-|          | 4     | Significant majority of user stories unambiguous and clear, with concrete acceptance criteria    |
-|          | 5     | Unambiguous and clear user stories with concrete acceptance criteria                             |
-| Planning | 0     | No user stories have points or priorities                                                        |
-|          | 1     | Only some user stories have points or priorities                                                 |
-|          | 2     | User stories have appropriate story point values and priorities                                  |
-
-### Milestone 2
-
-| Criteria     | Mark |                                                                                                   |
-|:------------ |:---- |:------------------------------------------------------------------------------------------------- |
-| Completeness | 0    | No or largely incomplete backend                                                                  |
-|              | 1    | Backend implements some of the entities                                                           |
-|              | 2    | Backend implements most of the entities                                                           |
-|              | 3    | Backend implements almost all entities                                                            |
-|              | 4    | Backend implements all of the entities                                                            |
-| Testing      | 0    | No JUnit tests                                                                                    |
-|              | 1    | JUnit tests for behaviour of a few entities                                                       |
-|              | 2    | Rigorous JUnit tests for behaviour of almost all entities                                         |
-|              | 3    | Rigorous JUnit tests for behaviour of all entities                                                |
-| Design       | 0    | No apparent consideration for design                                                              |
-|              | 1    | Messy design and diagrams and/or design inconsistent with code                                    |
-|              | 2    | Clear design and diagrams with partial adherence to design principles and patterns                |
-|              | 3    | Clear design and diagrams with strong adherence to design principles and patterns                 |
-|              | 4    | Clear design and diagrams fully adhering to design principles and patterns and conforming to code |
-
-Marks will be deducted for poor git and GitLab usage. For example, meaningless commit messages, large commits, issue board out of date, etc.
-
-### Milestone 3
-
-| Criteria     | Mark |                                                                                                   |
-|:------------ |:---- |:------------------------------------------------------------------------------------------------- |
-| Completeness | 0    | No or largely incomplete project                                                                  |
-|              | 1    | Dungeons can be played with most of the entities                                                  |
-|              | 2    | Dungeons can be played with almost all of the entities                                            |
-|              | 3    | Dungeons can be played with all of the entities                                                   |
-| Design       | 0    | No apparent consideration for design                                                              |
-|              | 1    | Messy design and diagrams and/or design inconsistent with code                                    |
-|              | 2    | Messy diagrams and/or poor application of design patterns                                         |
-|              | 3    | Moderately clear diagrams and moderate application of design patterns                             |
-|              | 4    | Clear design and diagrams with moderate adherence to design principles and patterns               |
-|              | 5    | Clear design and diagrams with strong adherence to design principles and patterns                 |
-|              | 6    | Clear design and diagrams fully adhering to design principles and conforming to code, and correct application of design patterns |
-| Interaction  | 0    | Very basic user interface                                                                         |
-|              | 1    | Interface that makes it possible to solve dungeons, but is slow, awkward, or buggy                |
-|              | 2    | An interface that is mostly usable but with little consideration for usability heuristics         |
-|              | 3    | Interface that is easy to use                                                                     |
-|              | 4    | Interface that is easy and intuitive to use                                                       |
-|              | 5    | A product that is engaging, intuitive and fun to use                                              |
-| Extensions   | 0    | No extensions or only very basic extensions                                                       |
-|              | 1    | One extension that represents some technical consideration                                        |
-|              | 2    | Two extensions representing some technical consideration                                          |
-|              | 3    | Three or more extensions that represent some technical as well as design and user interaction consideration |
-
-Marks will be deducted for poor git and GitLab usage. For example, meaningless commit messages, large commits, issue board out of date, etc.
-
-[player]:        images/human_new.png
-[wall]:          images/brick_brown_0.png
-[exit]:          images/exit.png
-[door_open]:     images/open_door.png
-[door_closed]:   images/closed_door.png
-[key]:           images/key.png
-[boulder]:       images/boulder.png
-[switch]:        images/pressure_plate.png
-[portal]:        images/portal.png
-[enemy]:         images/deep_elf_master_archer.png
-[sword]:         images/greatsword_1_new.png
-[invincibility]: images/brilliant_blue_new.png
-[treasure]:      images/gold_pile.png
-
-[maze]:          examples/maze.png
-[boulders]:      examples/boulders.png
-[advanced]:      examples/advanced.png
 
